@@ -1,17 +1,17 @@
-<!doctype html>
-<html>
-<head>
-    <title>Olá Terra</title>
-    <meta charset="utf-8" />
-    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <style>
-        h1 { color: blanchedalmond;}
-    </style>
-</head>
-<body>
-    <div>
-        <h1>Olá usuário!</h1>
-        <h2>Vamos resolver o que hoje?!</h2>
-    </div>
-</body>
+<!DOCTYPE html>
+<html lang="pt_BR">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App do clima</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1 id="temperature"></h1>
+    <p id="windSpeed"></p>
+
+    <h2 id="description"></h2>
+    <p id="location"></p>
+
+    <script src="script.js"></script>
+  </body>
+</html>
