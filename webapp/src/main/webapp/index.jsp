@@ -8,7 +8,7 @@
     <title>App do clima</title>
     <link rel="stylesheet" href="styles.css">
     <%@ page import="java.util.Map" %>
-    <%@ page import="main.webapp.ApiFetcher" %>
+    <%@ page import="webapp.ApiFetcher" %>
     <%
         String weatherData = ApiFetcher.fetchApiData();
     %>
