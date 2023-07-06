@@ -1,6 +1,3 @@
-<%@ page import="java.util.Map" %>
-<%@ page import="com.example.webapp.ApiFetcher" %>
-
 <!DOCTYPE html>
 <html lang="pt_BR">
   <head>
