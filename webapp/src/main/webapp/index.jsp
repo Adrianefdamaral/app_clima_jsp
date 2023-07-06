@@ -1,5 +1,5 @@
 <%@ page import="java.util.Map" %>
-<%@ page import="webapp.ApiFetcher" %>
+<%@ page import="com.example.webapp.ApiFetcher" %>
 
 <!DOCTYPE html>
 <html lang="pt_BR">
@@ -8,7 +8,7 @@
     <title>App do clima</title>
     <link rel="stylesheet" href="styles.css">
     <%@ page import="java.util.Map" %>
-    <%@ page import="webapp.ApiFetcher" %>
+    <%@ page import="com.example.webapp.ApiFetcher" %>
     <%
         String weatherData = ApiFetcher.fetchApiData();
     %>

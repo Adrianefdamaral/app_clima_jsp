@@ -1,4 +1,4 @@
-package webapp;
+package com.example.webapp;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
