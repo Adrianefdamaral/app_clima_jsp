@@ -1,5 +1,5 @@
 <%@ page import="java.util.Map" %>
-<%@ page import="main.webapp.ApiFetcher" %>
+<%@ page import="webapp.ApiFetcher" %>
 
 <!DOCTYPE html>
 <html lang="pt_BR">
