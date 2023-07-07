@@ -4,7 +4,7 @@ const descriptionElement = document.getElementById('description');
 const locationElement = document.getElementById('location');
 const windSpeedElement = document.getElementById('windSpeed');
 
-fetch('https://api.open-meteo.com/v1/forecast?latitude=-29.90&longitude=-50.27&current_weather=true')
+fetch('https://api.open-meteo.com/v1/forecast?latitude=-45.90&longitude=-50.27&current_weather=true')
   .then(response => response.json())
   .then(data => {
     const { temperature, weathercode, time, windspeed, winddirection } = data.current_weather;
